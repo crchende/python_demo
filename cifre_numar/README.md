@@ -1,7 +1,7 @@
 Exemplu program cu interfata grafica
 =====================================
 
-__cifre_numar__ rezultat in urma compilarii programului __cifre_numar.cpp__
+Program __cifre_numar__ rezultat in urma compilarii programului __cifre_numar.cpp__
 
 Pe linux, compilarea se face cu comanda:
 ### g++ -o cifre_numar cifre_numar.cpp
@@ -14,6 +14,12 @@ Algoritmul contine urmatorii pasi:
   - fie citit de la tastatura (cin >> nr;)
   - fie dat in program (int nr = 123;)
   - fie dat ca parametru in linia 
+
+2) folosim o bucla while:
+  - cat timp numar > 0
+    - ultima_cifra = numar % 10
+    - afiseaza ultima_cifra
+    - numar = numar / 10
 
 
 
