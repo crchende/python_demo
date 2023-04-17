@@ -11,15 +11,15 @@ Pornim de la un algoritm studiat in general in liceu: am un numar (ex 123) si vr
 
 Algoritmul contine urmatorii pasi:
 1) am numarul
-  - fie citit de la tastatura (cin >> nr;)
-  - fie dat in program (int nr = 123;)
-  - fie dat ca parametru in linia 
+    - fie citit de la tastatura (cin >> nr;)
+    - fie dat in program (int nr = 123;)
+    - fie dat ca parametru in linia 
 
 2) folosim o bucla while:
-  - cat timp numar > 0
-    - ultima_cifra = numar % 10
-    - afiseaza ultima_cifra
-    - numar = numar / 10
+    - cat timp numar > 0
+      - ultima_cifra = numar % 10
+      - afiseaza ultima_cifra
+      - numar = numar / 10
 
 
 
