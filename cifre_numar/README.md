@@ -24,18 +24,22 @@ Algoritmul contine urmatorii pasi:
       - numar = numar / 10
 
 ### Adaugare interfata grafica - fereastra specifica sistemului de operare(Windows / Linux / Mac)
-#### cifre_numar_cpp.py
+#### 1) cifre_numar_cpp.py
 
 ![image](https://user-images.githubusercontent.com/57460107/232603434-bea98de3-903b-4670-afc7-bbf5cac2593d.png)
 
 
 Programul Python creaza interfata grafica. Aceasta contine:
- - un elemnt grafic (widget) de tip 'Entry', care ne permite sa scriem in el;
- - un eleent grafic de tip 'Button' cu care pornim procesarea dupa ce am introdus datele in 'Entry'
- - un elemnt grafic de tip 'Label' in care vom afisa rezultatul procesarii.
+ - un element grafic (widget) de tip 'Entry', care ne permite sa scriem in el;
+ - un element grafic de tip 'Button' cu care pornim procesarea dupa ce am introdus datele in 'Entry'
+ - un element grafic de tip 'Label' in care vom afisa rezultatul procesarii.
 
-La apasarea pe butonul Proceseaza, 
+La apasarea pe butonul Proceseaza, programul preia continutul elementului grafic 'Entry' si apeleaza fisierul executabil rezultat in urma compilarii programului cifre_numar.cpp, dandu-i ca parametru ce a citit din Entry:
+__cifre_numar \<date luate in Entry\>__
 
+Ceea ce afiseaza executabilul __cifre_numar__ (output-ul) este preluat de Python si afisat in elementul "Label" din interfata grafica.
+    
+#### 2) 
 
 
 
