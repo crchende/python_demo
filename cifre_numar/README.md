@@ -8,7 +8,7 @@ Algoritmul va fi implementat in C/C++ si Python. Pe langa algoritm, vom adauga s
 * ferestre specifice sistemului de operare folosit (windows, Mac, Linux) folosind biblioteca *tkinter;
 * interfata WEB, vizualizare rezultatului executie algoritmului in browser si preluare numar de prelucrat din URL - folosind framework-ul *flask
 
-*NOTA: Programele au fost testate pe Ubuntu 20.04.
+__*NOTA: Programele au fost testate pe Ubuntu 20.04.__
 
 ### Descrie algoritm gasire cifre
 Pornim de la un algoritm studiat in general in liceu: am un numar (ex 123) si vreau sa vad ce cifre am in numar (ex: 3, 2, 1).
@@ -24,21 +24,16 @@ Algoritmul contine urmatorii pasi:
       - afiseaza ultima_cifra
       - numar = numar / 10
 
-Adaugare interfata grafica - fereastra specifica sistemului de operare Linux/Windows/Mac si interfata WEB unui program care afiseaza cifrele dintr-un numar.
-Avem programul __cifre_numar__ rezultat in urma compilarii programului __cifre_numar.cpp__
-
-
-
-Pe linux, compilarea se face cu comanda:
-
 
 ## Variante implementare
 
 ### 1) C/C++
 Codul este in fisierul __cifre_numar.cpp__.
+
 Pe linux acesta poate fi compilat folosind comanda:
 __g++ -o cifre_numar cifre_numar.cpp__
 care trebuie executata din directorul in care se afla fisierul cifre_numar.cpp
+
 In urma compilarii va rezulta fisierul executabil: __cifre_numar__.
 Programul nu are interfata grafica, poate fi executat din terminal si asteapta ca parametru numarul care trebuie procesat.
 
