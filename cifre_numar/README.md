@@ -59,6 +59,7 @@ Programul contine minimul de cod necesar pentru interfata grafica si pentru algo
 Are aproximativ 30 de linii de cod.
 
 Exemplu lansare in executie:
+
 ![image](https://user-images.githubusercontent.com/57460107/233189359-4a5d1b43-7311-43e3-b01d-1b0db4dfb003.png)
 
 *NOTA - la fel se lanseaza in executie si celelalte programe python, cu comanda: __python3 \<nume fisier .py\>__*
@@ -66,7 +67,8 @@ Exemplu lansare in executie:
 ### 4) cifre_numar_doc.py
 Aceasta varianta include si partea de tratare erori si de documentare a codului.
 Ca dimensiune este de aproximativ 90 de linii de cod.
-*!!! de retinut - dimensiunea unui cod complet - cu tratare erori si documentare - chiar si pentru o aplicatie foarte simpla este de cel putin 3 ori mai mare decat varianta functionala minima a unui program. Pentru a face un produs, bun de livrat si utilizat efortul poate fi chiar de 10+ ori mai mare decat varianta minima functionala (__MVP__ Minimum Viable Product)
+
+*!!! ___de retinut__ - dimensiunea unui cod complet - cu tratare erori si documentare - chiar si pentru o aplicatie foarte simpla este de cel putin 3 ori mai mare decat varianta functionala minima a unui program. Pentru a face un produs, bun de livrat si utilizat efortul poate fi chiar de 10+ ori mai mare decat varianta minima functionala (__MVP__ Minimum Viable Product)*
 
 ### 5) cifre_numere_web.py
 Programul implementeaza acelasi algoritm ca si programele anterioare doar ca utilizeaza framework-ul *flask* pentru a afisa rezultatul executiei in browser si pentru a prelua datele de la utilizator din browser (din URL).
